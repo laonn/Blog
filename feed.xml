@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://laon.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://laon.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-09-20T23:51:38+09:00</updated><id>https://laon.blog/feed.xml</id><title type="html">=＾● ⋏ ●＾=</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>라온</name></author><entry><title type="html">아이폰으로 이메일 알림 받는 방법</title><link href="https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="아이폰으로 이메일 알림 받는 방법" /><published>2024-01-26T15:20:00+09:00</published><updated>2024-01-26T15:20:00+09:00</updated><id>https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/"><![CDATA[<h2 id="이메일의-중요성을-알게-되다">이메일의 중요성을 알게 되다.</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://laon.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://laon.blog/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-09-21T00:09:00+09:00</updated><id>https://laon.blog/feed.xml</id><title type="html">=＾● ⋏ ●＾=</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>라온</name></author><entry><title type="html">아이폰으로 이메일 알림 받는 방법</title><link href="https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/" rel="alternate" type="text/html" title="아이폰으로 이메일 알림 받는 방법" /><published>2024-01-26T15:20:00+09:00</published><updated>2024-01-26T15:20:00+09:00</updated><id>https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95</id><content type="html" xml:base="https://laon.blog/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/"><![CDATA[<h2 id="이메일의-중요성을-알게-되다">이메일의 중요성을 알게 되다.</h2>
 <p>나는 메일을 별 대수롭지 않게 생각해왔다. 가지고 있는 메일만 해도 이런 저런 이유로 만들고 쓰고있는 이메일이 <strong>6개(!)</strong>가 되었다. 메일의 용도도 중구난방이라서 어떤 알림이 어떤 메일로 오는지도 모르는 상태였다. 하지만 기업-개인 간의 소통은 이메일을 통해서 많이 일어나기 때문에 메일 관리를 잘 해야된다.</p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/마인크래프트이전.png" alt="마인크래프트 이전" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/마인크래프트이전.png" alt="마인크래프트 이전" /></p>
 
 <p>최근에는 이메일을 확인하지 못해서 손해를 봤는데, 마인크래프트 계정을 모장 계정에서 마이크로소프트로 이전하라는 메일이었는데, 이 메일을 확인하지 못하고 이전이 끝난지 1달이 넘어서야 확인을 하게 되었다. 모장계정은 거진 10년전에 해외결제를 못해서 대리구매로 마인크래프트를 사서 했던 추억이 있는 계정이었는데, 메일을 확인하지 못하여 <strong>날려버린 것이다.</strong></p>
 
@@ -30,9 +30,9 @@
 <h3 id="mail에-네이버-메일-imap설정-하는-방법">Mail에 네이버 메일 IMAP설정 하는 방법</h3>
 <p>Mail에 여러 메일 계정을 등록하기 위해서는 메일의 계정에 접속해서 <strong>IMAP(Internet Messaging Access Protocol)</strong>를 허용 하는것으로 설정을 바꾸고 Mail앱에서 등록을 하면 Mail앱에서 여러 메일을 수신하고 관리할 수 있다.</p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/네이버-메일매뉴.png" alt="네이버-메일매뉴" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/네이버-메일매뉴.png" alt="네이버-메일매뉴" /></p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/네이버-imap설정.png" alt="네이버-imap설정" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/네이버-imap설정.png" alt="네이버-imap설정" /></p>
 
 <p>네이버 메일의 imap설정은 메일 계정에 들어간 후 왼쪽 패널의 중간에 있는 <strong>내 메일함</strong>의 오른쪽에 있는 톱니바퀴를 누르고 나온 환경설정에서 <strong>POP3/IMAP 설정</strong>을 들어가서 <strong>POP3/IMAP 사용</strong> 옵션을 사용함으로 설정한 후 저장 한다.</p>
 
@@ -41,9 +41,9 @@
 <h3 id="mail에-구글-메일-imap설정-하는-방법">Mail에 구글 메일 IMAP설정 하는 방법</h3>
 <p>구글 메일을 설정하는 것도 네이버와 크게 다르지 않다.</p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/구글-매뉴.png" alt="구글-메일매뉴" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/구글-매뉴.png" alt="구글-메일매뉴" /></p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/구글-imap설정.png" alt="구글-imap설정" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/구글-imap설정.png" alt="구글-imap설정" /></p>
 
 <p>구글의 경우도 동일하게 오른쪽 상단에 있는 톱니바퀴를 누르고, 나온 설정에서 <strong>전달 및 POP/IMAP</strong>탭을 들어가면 <strong>IMAP 엑세스</strong> 매뉴를 확인 할 수 있다. IMAP사용에 체크해주면 된다.</p>
 
@@ -52,7 +52,7 @@
 
 <p><strong>설정 -&gt; Mail -&gt; 계정 -&gt; 계정 추가</strong>에 들어가보면 다음과 같은 화면을 확인 할 수 있다.</p>
 
-<p><img src="/아이폰으로-메일-알림-받는-설정-방법.md/아이폰-메일-계정-추가.png" alt="아이폰 계정 추가" /></p>
+<p><img src="https://image.laon.blog/아이폰으로-메일-알림-받는-설정-방법.md/아이폰-메일-계정-추가.png" alt="아이폰 계정 추가" /></p>
 
 <p>이제 본인의 플랫폼을 선택해서 계정을 추가하면 된다. 그러면 이제 기본 메일 앱에서 다른 메일의 내용을 확인할 수 있으며 메일 삭제같은 기본적인 관리도 가능하게 된다.</p>
 
@@ -106,11 +106,11 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 <p><strong>추가 2024-02-15</strong></p>
 
 <p>클라우드 플레어 이미지를 한달 사용하고나서 내가 요금정책에 대해 잘못 알고있었다는 것을 알았다. 이미지 저장 공간은 <strong>구독</strong> 개념이다. 따라서 가장 작은 옵션을 선택 하더라도 매달 5$을 지불해야된다. 그리고 이미지 호출은 100,000번 까지 1달러로 사용할 수 있지만, 이 또한 매달 갱신되는 구조이다. 얼마 되지도 않는 이미지를 호스팅 하기 위해 매달 6$를 지불할 수는 없었기 때문에 다른 대안을 찾을 수 밖에 없게 되었다.
-<img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지가격.png" alt="클라우드이미지가격" /></p>
+<img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지가격.png" alt="클라우드이미지가격" /></p>
 
 <p><del>클라우드 이미지의 기본 요금 정책이다. 선불로 5달러를 지불하면 <strong>100,000개</strong>의 이미지에 대해서 저장공간을 이용할 수 있다. 그리고 100,000번의 호출마다 <strong>1달러</strong>의 요금을 후불로 지불한다. 그리고 이미지 리사이즈를 이용해 원본의 이미지를 여러 크기로 저장 할 수 있는데, 이 기능은 무료로 제공된다.</del></p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지가격옵션.png" alt="클라우드이미지가격옵션" /></p>
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지가격옵션.png" alt="클라우드이미지가격옵션" /></p>
 
 <p><del>월정액으로 지불을 하면 많은 이미지를 저장할 수 있고 추가되는 기능들이 있지만, 나는 당장은 이미지 호스팅만 최소한으로 필요하기 때문에 <strong>custom 요금</strong>으로 선택을 한 후 이미지 저장 공간을 1개(100,000개의 이미지)만 추가했다. 이렇게 결제를 하면 5달러의 금액을 최초 지불하고 이미지 호출이 100,000번 될 때 마다 1달러씩 청구된다.</del></p>
 
@@ -119,12 +119,12 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 <h3 id="이미지-업로드-하는-방법">이미지 업로드 하는 방법</h3>
 <p>이제 클라우드 플레어 이미지를 이용해서 이미지를 <strong>업로드</strong> 하는 방법을 알아보겠다. 우선 시연을 하기위해 테스트 이미지가 필요하다. 테스트 이미지는 귀여운 아래의 이미지로 하겠다.</p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트.png" alt="태스트" />
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트.png" alt="태스트" />
 <em>귀여운 <strong>태스트</strong> 이미지</em></p>
 
 <p>아래는 금액을 결제하고 나면 처음으로 확인 할 수 있는 화면이다.</p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지오버뷰.png" alt="오버뷰" /></p>
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/클라우드이미지오버뷰.png" alt="오버뷰" /></p>
 
 <p>대시보드를 통한 이미지 업로드는 사실 인터페이스만 보면 사용법을 쉽게 알 수 있다. 보이는 화면에 <strong>드래그 앤 드롭</strong> 하면 이미지가 바로 업로드 된다.</p>
 
@@ -146,17 +146,17 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 
 <p>두가지 방법중 하나로 이미지를 업로드 하면 다음과 같이 이미지가 업로드 된 것을 오버뷰 페이지의 중간에서 확인 가능하다.</p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트업로드.png" alt="태스트업로드" /></p>
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트업로드.png" alt="태스트업로드" /></p>
 
 <h3 id="이미지-사용하는-방법">이미지 사용하는 방법</h3>
 <p>클라우드 플레어 이미지에 이미지를 업로드 하면 <strong>고유의 ID</strong>가 부여되는데 이를 이용해 이미지를 사용할 수 있다. 이미지의 ID는 상세 페이지를 통해 확인 할 수 있다.</p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트상세.png" alt="테스트상세페이지" /></p>
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트상세.png" alt="테스트상세페이지" /></p>
 
 <p>오버뷰 페이지의 우측을 보면 <code class="language-plaintext highlighter-rouge">https://imagedelivery.net/&lt;ACCOUNT_HASH&gt;/&lt;IMAGE_ID&gt;/&lt;VARIANT_NAME&gt;</code>의 형식의 문자열이 있을 것이다. 
 이를 복사해서 IMAGE_ID와 VARIANT_NAME(기본값은 public)을 삽입하고 이미지 태그에 추가하면 이미지를 확인 할 수 있다.</p>
 
-<p><img src="/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트.png" alt="태스트" />
+<p><img src="https://image.laon.blog/클라우드-플레어-이미지를-이용한-블로그-이미지-호스팅.md/태스트.png" alt="태스트" />
 <em>이미지 업로드에 성공했다.</em></p>
 
 <h3 id="기타-기능">기타 기능</h3>
@@ -176,7 +176,7 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 
 <p>그전에 문구점을 왔을때는 전혀 눈치채지 못했는데 이번에는 한켠에 적지않은 수의 편지지와 편지봉투들이 가지런히 놓여있는것을 발견했다. 이쁜 편지지가 많았지만 나는 아무래도 처음 편지를 보내보는 것 이기 때문에 편지 보내기에 필요한 것들이 이미 세트로 구성되어있는 상품을 선택했다.</p>
 
-<p><img src="/새해맞이-손편지.md/편지지세트.jpg" alt="letterset" w="400" class="nomal" />
+<p><img src="https://image.laon.blog/새해맞이-손편지.md/편지지세트.jpg" alt="letterset" w="400" class="nomal" />
 <em>알파문구에서 산 7000원짜리 편지지 세트</em></p>
 
 <p>내가 고른 편지지 세트는 8장의 편지지와 4개의 편지봉투, 봉인 스티커, 주소 라벨으로 구성되어있었다. 디자인도 마음에 들 뿐더러 4명에게 편지를 보낼 생각이었기 때문에 아주 적절하다고 생각했다.</p>
@@ -201,12 +201,12 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 <h2 id="완성된-4개의-편지">완성된 4개의 편지</h2>
 <p>그렇게 우여곡절 끝에 어디가서 자랑하지는 못하지만 부끄럽지는 않은 4장의 편지가 완성되었다. 이게 편지지를 책상위에 꺼내들고 한장 한장 나의 글씨로 편지지를 채워나가기 시작했다. 이때부터는 마음이 가벼웠다. 그동안은 선택하고 고민하고의 연속이었다면 이제부터는 정해진 일들만 순차적으로 하기만 하면 금방 마무리가 될 것이기 때문이었다. 다만 편지지로 글을 옮겨적는 과정에서 내 글씨가 조금만 이뻤으면 좋겠다는 생각이 떠나지를 않았다. 너무 이쁜 편지지 위에 지렁이 글씨가 쓰여지니까 좀 무안한 기분이 들었다.</p>
 
-<p><img src="/새해맞이-손편지.md/스티커붙이기전.jpg" alt="stikernotadded" w="400" class="nomal" />
+<p><img src="https://image.laon.blog/새해맞이-손편지.md/스티커붙이기전.jpg" alt="stikernotadded" w="400" class="nomal" />
 <em>편지를 전부 쓰고 봉인 스티커를 붙이기 전</em></p>
 
 <p>이제 8장의 편지지를 모두 체우고 하나하나 포장하기 시작했다. 편지봉투에 편지지를 잘 확인해서 두장씩 넣고, 우표를 붙이고, 미리 받아놨던 주소를 적고, 그리고 편지가 반송 될 수도 있기때문에 우리집 주소도 좌상단에 적어놓았다. 이제 마지막 단계로 스티커를 이용해서 편지를 봉인하면 끝이다.</p>
 
-<p><img src="/새해맞이-손편지.md/스티커붙인후.jpg" alt="stikeradded" w="400" class="nomal" />
+<p><img src="https://image.laon.blog/새해맞이-손편지.md/스티커붙인후.jpg" alt="stikeradded" w="400" class="nomal" />
 <em>이제 보내기만 하면 끝이다.</em></p>
 
 <h2 id="편지를-써본-후기">편지를 써본 후기</h2>
@@ -277,7 +277,7 @@ icloud 메일은 푸시로 설정을 하고 다른 메을은 가져오기로 설
 <h2 id="피드">피드</h2>
 <p>피드 사용을 위한 url</p>
 
-<p><a href="/feed.xml"><code class="language-plaintext highlighter-rouge">laon.blog/feed.xml</code></a></p>]]></content><author><name>라온</name></author><category term="[&quot;나의 기록&quot;, &quot;블로그&quot;]" /><category term="공지" /><summary type="html"><![CDATA[브로그 도메인에 대한 가이드]]></summary></entry><entry><title type="html">이미지 업로드</title><link href="https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/" rel="alternate" type="text/html" title="이미지 업로드" /><published>2024-01-04T13:48:00+09:00</published><updated>2024-01-04T13:48:00+09:00</updated><id>https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C</id><content type="html" xml:base="https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/"><![CDATA[<p><img src="/이미지-업로드.md/img.png" alt="img" />
+<p><a href="/feed.xml"><code class="language-plaintext highlighter-rouge">laon.blog/feed.xml</code></a></p>]]></content><author><name>라온</name></author><category term="[&quot;나의 기록&quot;, &quot;블로그&quot;]" /><category term="공지" /><summary type="html"><![CDATA[브로그 도메인에 대한 가이드]]></summary></entry><entry><title type="html">이미지 업로드</title><link href="https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/" rel="alternate" type="text/html" title="이미지 업로드" /><published>2024-01-04T13:48:00+09:00</published><updated>2024-01-04T13:48:00+09:00</updated><id>https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C</id><content type="html" xml:base="https://laon.blog/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/"><![CDATA[<p><img src="https://image.laon.blog/이미지-업로드.md/img.png" alt="img" />
 <em>이미지 업로드 테스트</em></p>
 
 <p>블로그를 새로 만들고 정비하려고 하니까 jekyll은 생각보다 쓸 수 있는 기능이 다양했고, 내가 아직 만들지 못한 기능들이 차고 넘쳤다. 내가 아직 하지못한 부족한 부분들을 조금씩 채워가고 있는데 기능을 하나 하나 만들때 마다 체계를 어떻게 만들어야 고민을 하는데 이게 설치형 블로그의 묘미인것 같다.</p>
