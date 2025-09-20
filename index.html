@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Home | =＾● ⋏ ●＾=</title>
+<meta name="generator" content="Jekyll v4.4.1">
+<meta property="og:title" content="Home">
+<meta name="author" content="라온">
+<meta property="og:locale" content="ko">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
+<link rel="canonical" href="https://laon.blog/">
+<meta property="og:url" content="https://laon.blog/">
+<meta property="og:site_name" content="=＾● ⋏ ●＾=">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Home">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"라온"},"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Home","name":"=＾● ⋏ ●＾=","url":"https://laon.blog/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="icon" href="">
+  <link rel="canonical" href="https://laon.blog">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-noto-sans@0.0.72/index.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script src="/assets/js/main.js"></script><link type="application/atom+xml" rel="alternate" href="https://laon.blog/feed.xml" title="=＾● ⋏ ●＾=">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/languages/go.min.js" async></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+// Init highlight js
+document.addEventListener('DOMContentLoaded', function(event) {
+  var els = document.querySelectorAll('pre code')
+
+  function addLangData(block) {
+    var outer = block.parentElement.parentElement.parentElement;
+    var lang = block.getAttribute('data-lang');
+    for (var i = 0; i < outer.classList.length; i++) {
+      var cls = outer.classList[i];
+      if (cls.startsWith('language-')) {
+        lang = cls;
+        break;
+      }
+    }
+    if (!lang) {
+      cls = block.getAttribute('class');
+      lang = cls ? cls.replace('hljs ', '') : '';
+    }
+    if (lang.startsWith('language-')) {
+      lang = lang.substr(9);
+    }
+    block.setAttribute('class', 'hljs ' + lang);
+    block.parentNode.setAttribute('data-lang', lang);
+  }
+
+  function addBadge(block) {
+    var enabled = ('true' || 'true').toLowerCase();
+    if (enabled == 'true') {
+      var pre = block.parentElement;
+      pre.classList.add('badge');
+    }
+  }
+
+  function handle(block) {
+    addLangData(block);
+    addBadge(block)
+    hljs.highlightBlock(block);
+  }
+
+  for (var i = 0; i < els.length; i++) {
+    var el = els[i];
+    handle(el);
+  }
+});
+</script>
+
+<style>
+  /* code language badge */
+  pre.badge::before {
+    content: attr(data-lang);
+    color: #fff;
+    background-color: #ff4e00;
+    padding: 0 .5em;
+    border-radius: 0 2px;
+    text-transform: uppercase;
+    text-align: center;
+    min-width: 32px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+
+  /* fix wrong badge display for firefox browser */
+  code > table pre::before {
+    display: none;
+  }
+</style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe-lightbox.umd.min.js" async></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/umd/photoswipe.umd.min.js" async></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.7/photoswipe.min.css" rel="stylesheet">
+<style>
+  .pswp .pswp__container .pswp__img {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initPhotoSwipe() {
+    let customOptions = {};
+
+    try {
+      const data = ``.replaceAll("=>", ":");
+      customOptions = JSON.parse(data);
+    } catch (e) {
+      console.info("Invalid custom photo previewer options! " + e.message);
+    }
+
+    // Define object and gallery options
+    const options = Object.assign(
+      {
+        gallery: "section.main",
+        children: "a.photo-swipe",
+        photo_scale: 2,
+        // dynamic import is not supported in UMD version
+        pswpModule: PhotoSwipe,
+      },
+      customOptions
+    );
+
+    const galleryEl = document.querySelector(options.gallery);
+    if (!galleryEl) {
+      return;
+    }
+
+    const imgEls = [];
+    const els = galleryEl.querySelectorAll("img:not(.emoji)");
+    els.forEach((el) => {
+      if (el.src.trim() == "") {
+        return;
+      }
+      if (!imgEls.includes(el)) {
+        imgEls.push(el);
+      }
+    });
+
+    if (imgEls.length === 0) {
+      return;
+    }
+
+    imgEls.forEach((imgEl) => {
+      imgEl.outerHTML = `
+      <a class="photo-swipe"
+        href="${imgEl.src}"
+        data-pswp-width="${
+          Math.max(imgEl.naturalWidth, imgEl.width) * options.photo_scale
+        }"
+        data-pswp-height="${
+          Math.max(imgEl.naturalHeight, imgEl.height) * options.photo_scale
+        }"
+        data-pswp-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
+        target="_blank">
+        ${imgEl.outerHTML}
+      </a>`;
+    });
+
+    // Initialize PhotoSwipe 5
+    var lightbox = new PhotoSwipeLightbox(options);
+
+    lightbox.init();
+  }
+
+  window.addEventListener("load", initPhotoSwipe);
+</script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="site-header site-header-transparent" role="banner">
+
+  <div class="wrapper">
+    <div class="site-header-inner">
+<span class="site-brand"><a class="site-brand-inner" rel="author" href="/">
+  <img class="site-favicon" title="=＾● ⋏ ●＾=" src="" onerror="this.style.display='none'">
+  =＾● ⋏ ●＾=
+</a>
+</span><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger">
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewbox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+              </svg>
+            </span>
+          </label>
+
+          <div class="trigger">
+<a class="page-link" href="/archives/">아카이브</a><a class="page-link" href="/categories/">카테고리</a><a class="page-link" href="/tags/">테그</a><a class="page-link" href="/about/">정보</a>
+          </div>
+        </nav>
+</div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    var lastScrollY = getScrollPos().y;
+    var documentElement = document.documentElement;
+
+    function storeScrollData() {
+      var y = getScrollPos().y;documentElement.setAttribute("data-header-transparent", "");var scrollStatus = "";
+
+      if (y <= 0) {
+        scrollStatus = "top";
+      } else if ((window.innerHeight + y) >= document.body.offsetHeight) {
+        scrollStatus = "bottom";
+      } else {
+        var isScrollDown = (y - lastScrollY > 0) ? true : false;
+        scrollStatus = isScrollDown ? "down" : "up";
+      }
+
+      lastScrollY = y;
+      documentElement.setAttribute("data-scroll-status", scrollStatus);
+    }
+
+    window.addEventListener('scroll', function(e) {
+      storeScrollData();
+    });
+
+    storeScrollData();
+  }
+  document.addEventListener('DOMContentLoaded', initHeader);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="page-banner">
+    <div class="page-banner-img">
+<div style="background-image: url(/assets/images/banners/home.jpeg)"></div>
+        <img class="img-placeholder" src="/assets/images/banners/home.jpeg">
+</div>
+    <div class="wrapper">
+      <div class="page-banner-inner"><div class="page-banner-default">
+            <h1 class="page-banner-heading">
+              고양이 달걀 굴리듯
+            </h1>
+            <h2 class="page-banner-subheading">
+              프로그래밍, 사진 좋아하는 사람
+            </h2>
+          </div></div>
+    </div>
+  </section><script>
+  function hashLocate(hashValue) {
+    hashValue = hashValue.replace(/^.*#h-/, '');
+    hashValue = decodeURIComponent(hashValue);
+    var element = document.getElementById(hashValue);
+
+    if (!element) {
+      return;
+    }
+
+    var header = document.querySelector('header.site-header');
+    var headerRect = header.getBoundingClientRect();
+    var headerTop = Math.floor(headerRect.top);
+    var headerHeight = Math.floor(headerRect.height);
+    var scrollPos = getScrollPos();
+    var offsetY = element.offsetTop - (headerTop + headerHeight + 20);
+
+    if (offsetY == scrollPos.y) {
+      return;
+    }
+
+    if (headerTop == 0  && offsetY > scrollPos.y) {
+      offsetY += headerHeight + 2;
+    } else if (headerTop < 0  && offsetY < scrollPos.y) {
+      offsetY -= headerHeight - 2;
+    }
+
+    smoothScrollTo(offsetY);
+  }
+
+  // The first event occurred
+  window.addEventListener('load', function(event) {
+    if (window.location.hash) {
+      hashLocate(window.location.hash);
+    }
+  });
+
+  // The first event occurred
+  window.addEventListener('click', function(event) {
+    if (event.target.tagName.toLowerCase() == 'a') {
+      hashLocate(event.target.getAttribute('href'));
+    }
+  });
+</script>
+<div class="theme-toggle">
+  <input type="checkbox" id="theme-switch">
+  <label for="theme-switch">
+    <div class="toggle"></div>
+    <div class="names">
+      <p class="light">Light</p>
+      <p class="dark">Dark</p>
+    </div>
+  </label>
+</div>
+
+
+
+
+<script>
+  (function() {
+    var sw = document.getElementById('theme-switch');
+    var html = document.getElementsByTagName('html')[0];
+    var nightModeOption = ('manual' || 'auto').toLowerCase();
+    var storage = nightModeOption === 'manual'
+        ? localStorage
+        : sessionStorage;
+    var themeData = loadThemeData();
+
+    function saveThemeData(data) {
+      storage.setItem('theme', JSON.stringify(data));
+    }
+
+    function loadThemeData() {
+      var data = storage.getItem('theme');
+      try {
+        data = JSON.parse(data ? data : '');
+      } catch(e) {
+        data = { nightShift: undefined, autoToggleAt: 0 };
+        saveThemeData(data);
+      }
+      return data;
+    }
+
+    function handleThemeToggle(nightShift) {
+      themeData.nightShift = nightShift;
+      saveThemeData(themeData);
+      html.dataset.theme = nightShift ? 'dark' : 'light';
+      setTimeout(function() {
+        sw.checked = nightShift ? true : false;
+        document.dispatchEvent(new Event('theme-changed'));
+      }, 50);
+    }
+
+    function autoThemeToggle() {
+      // Next time point of theme toggle
+      var now = new Date();
+      var toggleAt = new Date();
+      var hours = now.getHours();
+      var nightShift = hours >= 19 || hours <=7;
+
+      if (nightShift) {
+        if (hours > 7) {
+          toggleAt.setDate(toggleAt.getDate() + 1);
+        }
+        toggleAt.setHours(7);
+      } else {
+        toggleAt.setHours(19);
+      }
+
+      toggleAt.setMinutes(0);
+      toggleAt.setSeconds(0);
+      toggleAt.setMilliseconds(0)
+
+      var delay = toggleAt.getTime() - now.getTime();
+
+      // auto toggle theme mode
+      setTimeout(function() {
+        handleThemeToggle(!nightShift);
+      }, delay);
+
+      return {
+        nightShift: nightShift,
+        toggleAt: toggleAt.getTime()
+      };
+    }
+
+    // Listen the theme toggle event
+    sw.addEventListener('change', function(event) {
+      handleThemeToggle(event.target.checked);
+    });
+
+    if (nightModeOption == 'auto') {
+      var data = autoThemeToggle();
+
+      // Toggle theme by local setting
+      if (data.toggleAt > themeData.autoToggleAt) {
+        themeData.autoToggleAt = data.toggleAt;
+        handleThemeToggle(data.nightShift);
+      } else {
+        handleThemeToggle(themeData.nightShift);
+      }
+    } else if (nightModeOption == 'manual') {
+      handleThemeToggle(themeData.nightShift);
+    } else {
+      var nightShift = themeData.nightShift;
+      if (nightShift === undefined) {
+        nightShift = nightModeOption === 'on';
+      }
+      handleThemeToggle(nightShift);
+    }
+  })();
+</script>
+<div id="click-to-top" class="click-to-top">
+  <i class="fa fa-arrow-up"></i>
+</div>
+<script>
+  (function () {
+    const clickToTop = document.getElementById('click-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        clickToTop.classList.add('show')
+      }else {
+        clickToTop.classList.remove('show')
+      }
+    });
+    clickToTop.addEventListener('click', () => {
+      window.smoothScrollTo(0);
+    });
+  })();
+</script>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="framework">
+  <section class="main">
+
+     <div class="articles">
+  
+
+  
+
+
+  
+
+
+
+
+<div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list z-image-style">
+    <!-- Top list item --><!-- Normal list item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/">
+      아이폰으로 이메일 알림 받는 방법<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 26</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240126/%EC%95%84%EC%9D%B4%ED%8F%B0%EC%9C%BC%EB%A1%9C-%EB%A9%94%EC%9D%BC-%EC%95%8C%EB%A6%BC-%EB%B0%9B%EB%8A%94-%EC%84%A4%EC%A0%95-%EB%B0%A9%EB%B2%95/">
+      <p>이메일의 중요성을 알게 되다.
+나는 메일을 별 대수롭지 않게 생각해왔다. 가지고 있는 메일만 해도 이런 저런 이유로 만들고 쓰고있는 이메일이 6개(!)가 되었다. 메일의 용도도 중구난방이라서 어떤 알림이 어떤 메일로 오는지도 모르는 상태였다. 하지만 기업-개인 간의 소통은 이메일을 통해서 많이 일어나기 때문에 메일 관리를 잘 해야... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240115/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B3%B5%EC%82%AC-%EB%81%9D/">
+      블로그 공사 끝!<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 15</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240115/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B3%B5%EC%82%AC-%EB%81%9D/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240115/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B3%B5%EC%82%AC-%EB%81%9D/">
+      <p>블로그를 처음 시작 했을 때 3가지의 목표중 하나가 이번달 안에 블로그의 기본 설정을 마치는 것 이었고 오늘부로 블로그의 기본적인 설정은 모두 끝마쳤다.
+
+블로그의 글을 쓰는 과정은 최대한 간결하게 만들었고, 아바타는 마이크로소프트의 Bing image creator의 도움을 받아서 이쁜 이미지를 뽑아서 사용했다. 마이크로소프... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240113/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85/">
+      클라우드 플레어 이미지(Cloudflare Images)를 이용한 블로그 이미지 호스팅<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 13</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 15 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240113/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240113/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%98%B8%EC%8A%A4%ED%8C%85/">
+      <p>이미지 호스팅 서비스를 찾다.
+최근 포스팅에서 이미지 호스팅에 대한 문제를 인식했었다. GithubPage를 통해 블로그를 호스팅 하는데 이곳에 이미지까지 업로드를 하면 용량이 부족해지기 때문에 이를 대체할 서비스를 찾아보았다. 취미정도로 하는 가벼운 블로그에서 사용할 이미지 호스팅 서비스를 다음의 3가지의 기준을 가지고 선... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240111/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EB%AC%B8%EC%A0%9C/">
+      이미지 업로드에 대한 문제<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 11</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240111/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EB%AC%B8%EC%A0%9C/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240111/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EB%AC%B8%EC%A0%9C/">
+      <p>이번에 새해맞이 손편지 글을 쓰다가 이미지가 로드 되지않는 오류가 발생했다. 그래서 인터넷 검색을 통해 어떤 문제가 있는지 찾아보다가 GithubPage의 호스트에 제한이 있는걸 발견했다. 당연히 무료 호스팅이기 떄문에 어느정도 용량에 한계가 있을 것이라고 생각을 하고 언제나 플랫폼을 바꿀 각오를 하고 있었지만 실제 어느정도의 ... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240111/%EC%83%88%ED%95%B4%EB%A7%9E%EC%9D%B4-%EC%86%90%ED%8E%B8%EC%A7%80/">
+      새해맞이 손편지<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 11</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 11 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240111/%EC%83%88%ED%95%B4%EB%A7%9E%EC%9D%B4-%EC%86%90%ED%8E%B8%EC%A7%80/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240111/%EC%83%88%ED%95%B4%EB%A7%9E%EC%9D%B4-%EC%86%90%ED%8E%B8%EC%A7%80/">
+      <p>편지를 쓰게된 이유
+이번에 새해맞이 손편지를 쓰게 되었다. 손편지를 쓴다고 하면 그런 말이 가장 먼저 떠오르는 것 같다. ‘요즘이 어떤 시대인데 손편지를 쓰니?’ 이번에 직접 손편지를 써본 결과 실리만 따진다면 사실 손편지를 쓰는 것은 말도 안된다는 것을 뼈저리게 느꼈다. 하지만 어째서 아직까지 편지를 쓰는 사람이 남아 있는지 알게되... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240107/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B5%AC%EC%A1%B0-%EA%B0%80%EC%9D%B4%EB%93%9C/">
+      도메인 구조 가이드<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 07</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 2 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240107/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B5%AC%EC%A1%B0-%EA%B0%80%EC%9D%B4%EB%93%9C/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240107/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B5%AC%EC%A1%B0-%EA%B0%80%EC%9D%B4%EB%93%9C/">
+      <p>나는 자주 방문한는 사이트가 있다면 도메인 구조를 파악하고 url을 직접 입력해서 사이트에 접속한다. 이 포스트에서는 블로그에 쉽고 간단하게 접근할 수 있도록 url의 구조를 설명한다.
+
+블로그의 페이지
+블로그의 페이지는 여러 포스트를 간단하게 조회할 수 있도록 포스트를 각각의 페이지의 형식에 맞게 보여준다.... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/tags.html#%EA%B3%B5%EC%A7%80">#공지</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240107/%EA%B3%B5%EC%A7%80/">
+      공지<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 07</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240107/%EA%B3%B5%EC%A7%80/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240107/%EA%B3%B5%EC%A7%80/">
+      <p>도메인 구조 가이드
+ <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"><a class="post-tag" href="/tags.html#%EA%B3%B5%EC%A7%80">#공지</a></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/">
+      이미지 업로드<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 04</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240104/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%97%85%EB%A1%9C%EB%93%9C/">
+      <p>
+이미지 업로드 테스트
+
+블로그를 새로 만들고 정비하려고 하니까 jekyll은 생각보다 쓸 수 있는 기능이 다양했고, 내가 아직 만들지 못한 기능들이 차고 넘쳤다. 내가 아직 하지못한 부족한 부분들을 조금씩 채워가고 있는데 기능을 하나 하나 만들때 마다 체계를 어떻게 만들어야 고민을 하는데 이게 설치형 블로그의 묘미인것 같다.
+
+... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240102/%EC%8B%9C%EC%9E%91/">
+      시작<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 02</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 5 mins</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240102/%EC%8B%9C%EC%9E%91/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240102/%EC%8B%9C%EC%9E%91/">
+      <p>블로그를 시작했다.
+2024년이 되면 일기나 블로그를 시작해볼까? 고민을 했었다. 그런데 블로그를 시작했다는 친구의 이야기가 1차 동기부여를 일으켰고 3일전 개발자 포프님의 유튜브에서 본 영상이 블로그를 만들게 했다.
+
+그래서 결론적으로 2일정도에 걸쳐서 블로그의 틀을 만드는데 성공 했다. jekyll을 통해 페이지를 만들고,... <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="post-item ">
+  <h2 class="post-title">
+    <a class="post-link" href="/posts/20240102/FirstPost/">
+      첫 글<span class="post-badges">
+  <span class="post-badge badge-top">TOP</span>
+  <span class="post-badge badge-new">NEW</span>
+</span>
+</a>
+  </h2>
+  <div class="post-meta">
+    <span class="post-date"><i class="fa fa-calendar"></i> 24, Jan 02</span><span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 1 min</span>
+  </div>
+  <div class="post-excerpt">
+<a class="post-image" href="/posts/20240102/FirstPost/" style="flex: 0 1 38.2%">
+      <div style="background-image: url(/assets/images/default-image.jpeg); height: 160px"></div>
+    </a><a class="post-text" href="/posts/20240102/FirstPost/">
+      <p>처음 올리는 포스트 테스트
+ <span class="read_more">Read More</span></p>
+    </a>
+  </div>
+  <div class="post-tags"></div>
+</li>
+</ul>
+
+  <!-- Pagination links -->
+</div>
+</div>
+
+
+  </section>
+  <section class="sidebar" style="margin-left: 15px;">
+    <!-- Get sidebar items -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="/index.html">
+        All<span>10</span>
+      </a>
+    </li>
+
+    
+      <li>
+        <a href="/categories.html#h-IT">
+          IT <span>2</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-Web">
+          Web <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EA%B8%B0%ED%83%80">
+          기타 <span>1</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EB%82%98%EC%9D%98%20%EA%B8%B0%EB%A1%9D">
+          나의 기록 <span>7</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EB%B8%94%EB%A1%9C%EA%B7%B8">
+          블로그 <span>6</span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/categories.html#h-%EC%9D%BC%EC%83%81">
+          일상 <span>1</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+</section>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="site-footer-inner">
+<div>Unpublished Work <span class="copyleft">©</span> 2017-2025 라온</div>
+      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      generator." href="https://jekyllrb.com/">Jekyll</a> &amp; <a title="Yat, yet
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat">Yat Theme</a>.</div>
+      <div class="footer-col rss-subscribe">Subscribe <a href="/feed.xml">via RSS</a>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
